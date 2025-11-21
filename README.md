@@ -226,43 +226,5 @@ const DawillRPG = {
 **⭐️ Don't forget to star my repositories if you like them! ⭐️**
 
 &lt;/div&gt;</code></pre>
-
-            <button class="copy-btn" onclick="copyCode()">📋 Copiar Código Completo</button>
-            <div class="success-msg" id="successMsg">✅ ¡Código copiado al portapapeles!</div>
-        </div>
-
-        <div style="margin-top: 30px; padding: 20px; background: #161b22; border-radius: 8px; border-left: 4px solid #dc143c;">
-            <h3 style="color: #dc143c; margin-top: 0;">📝 Instrucciones de Instalación:</h3>
-            <ol style="line-height: 1.8;">
-                <li>Ve a tu perfil de GitHub</li>
-                <li>Crea un nuevo repositorio con el <strong>mismo nombre que tu usuario</strong> (DawillRPG)</li>
-                <li>Marca la opción "Add a README file"</li>
-                <li>Copia el código de arriba</li>
-                <li>Edita el archivo README.md y pega el código</li>
-                <li>Cambia "YOUR_DISCORD_ID" por tu ID de Discord</li>
-                <li>¡Guarda y disfruta tu nuevo perfil! 🎉</li>
-            </ol>
-        </div>
-    </div>
-
-    <script>
-        function copyCode() {
-            const code = document.querySelector('pre code').textContent;
-            navigator.clipboard.writeText(code).then(() => {
-                const btn = document.querySelector('.copy-btn');
-                const msg = document.getElementById('successMsg');
-                
-                btn.textContent = '✅ ¡Copiado!';
-                btn.style.background = 'linear-gradient(135deg, #238636 0%, #2ea043 100%)';
-                msg.style.display = 'block';
-                
-                setTimeout(() => {
-                    btn.textContent = '📋 Copiar Código Completo';
-                    btn.style.background = 'linear-gradient(135deg, #dc143c 0%, #ff0000 100%)';
-                    msg.style.display = 'none';
-                }, 3000);
-            });
-        }
-    </script>
 </body>
 </html>
