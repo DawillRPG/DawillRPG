@@ -16,8 +16,7 @@
 const dawillRPG = {
     location: "Dominican Republic 🇩🇴",
     role: "Developer",
-    languages: ["JavaScript", "HTML", "CSS" "Lua"],
-    currentlyLearning: "React",
+    languages: ["JavaScript", "HTML", "CSS" "Lua""React"],
     hobbies: ["Gaming", "Coding"],
 };
 ```
