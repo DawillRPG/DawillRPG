@@ -90,8 +90,7 @@ const dawillRPG = {
 
 ### 🐍 Watch my contribution graph get eaten by the snake!
 
-![snake gif](https://github.com/DawillRPG/DawillRPG/blob/output/github-contribution-grid-snake-dark.svg)
-
+![snake gif](https://raw.githubusercontent.com/DawillRPG/DawillRPG/output/github-contribution-grid-snake-dark.svg)
 ---
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DawillRPG&color=DC143C&style=flat-square)
